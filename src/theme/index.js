@@ -37,7 +37,10 @@ export default {
 		"red": "#DE350B",
 		"purple": "#FD6DF9",
 		"indigo": "#9B6CFC",
-		"whiteLight": "rgba(255, 255, 255, 0.7)"
+		"whiteLight": "rgba(255, 255, 255, 0.7)",
+		"white": "#ffffff",
+		"whitelight1": "rgba(255, 255, 255, 0.5)",
+		"lightPrimary": "#E6F5F8"
 	},
 	"fontFamily": {
 		"sans": "-apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -56,13 +59,16 @@ export default {
 		"headline2": "normal 900 42px/1.2 --fontFamily-googlePoppins",
 		"headline3": "normal 500 28px/1.2 --fontFamily-googlePoppins",
 		"base": "normal 300 16px/1.5 --fontFamily-googlePoppins",
-		"lead": "normal 300 20px/1.5 --fontFamily-googlePoppins"
+		"lead": "normal 300 20px/1.5 --fontFamily-googlePoppins",
+		"para3": "300 16px/1.5em --fontFamily-googlePoppins",
+		"para2": "400 18px/1.5em --fontFamily-googlePoppins"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
 		"l": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
 		"xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
-		"xxl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
+		"xxl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+		"shadow1": "0 0 6px rgba(0, 0, 0, 0.16)"
 	},
 	"background": {
 		"primaryGradient": "linear-gradient(180deg, --color-primary, transparent) no-repeat 0 0",
@@ -153,7 +159,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Poppins": {
 			"family": "Poppins",
@@ -182,5 +187,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 45
 }

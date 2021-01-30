@@ -8,6 +8,9 @@ const pageStyles = {
     },
     "index": {
         "font": "16px --fontFamily-googlePoppins"
+    },
+    "the_pages/:id": {
+        "font": "16px --fontFamily-googlePoppins"
     }
 };
 

@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"601439a871e66d001efaf95c",
-				"601439a871e66d001efaf95e"
+				"601439a871e66d001efaf95e",
+				"60145790977a55001e577c01"
 			]
 		},
 		"601439a871e66d001efaf95c": {
@@ -18,6 +19,11 @@ export default {
 			"id": "601439a871e66d001efaf95e",
 			"name": "index",
 			"pageUrl": "index"
+		},
+		"60145790977a55001e577c01": {
+			"id": "60145790977a55001e577c01",
+			"pageUrl": "the_pages/:id",
+			"name": "pages"
 		}
 	},
 	"mode": "production",
@@ -26,6 +32,8 @@ export default {
 		"styles": {
 			"font": "16px --fontFamily-googlePoppins"
 		},
-		"seo": {}
+		"seo": {
+			"title": ""
+		}
 	}
 }
