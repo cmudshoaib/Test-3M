@@ -107,7 +107,7 @@ export default (() => {
 						</Text>
 						{"    "}
 					</StackItem>
-					<StackItem width="33.333%" display="flex" lg-width="50%">
+					<StackItem width="33.333%" display="flex" lg-width="50%" sm-width="100%">
 						<Override slot="StackItemContent" flex-direction="column" />
 						{"        "}
 						<Box
@@ -298,7 +298,7 @@ company has been growing steadily in capacity,
 expertise and sales.
 					</Text>
 					<Link
-						href="#"
+						href="/about-us"
 						text-decoration-line="initial"
 						background="--color-white"
 						color="--primary"
@@ -494,7 +494,7 @@ Wills Lifestyle, Vishal Megamart (TPG Group) and Future Retail Ltd(Big Bazar).
 			</Stack>
 			<Box display="flex" justify-content="center">
 				<Link
-					href="#"
+					href="/clients"
 					text-decoration-line="initial"
 					color="--white"
 					display="block"
