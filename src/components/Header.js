@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import { useOverrides, Override, Menu, Section } from "@quarkly/components";
 import { Image, Icon, Box } from "@quarkly/widgets";
 import { MdMenu, MdKeyboardBackspace } from "react-icons/md";
@@ -194,7 +194,9 @@ const Header = props => {
 		rest
 	} = useOverrides(props, overrides, defaultProps);
 	const [isOpen, setOpen] = useState(false);
-	const onToggleOpen = useCallback(() => setOpen(!isOpen, [isOpen]));
+
+	const onToggleOpen = () => setOpen(!isOpen, [isOpen]);
+
 	const stateOpen = isOpen ? ':open' : ':closed';
 	return <Section {...rest}>
 		<Override slot="SectionContent" flex-direction="row" justify-content="space-between" lg-justify-content="center" />
