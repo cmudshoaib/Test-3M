@@ -135,6 +135,10 @@ expertise and sales.
 					min-height="300px"
 					max-height="500px"
 					position="relative"
+					sm-grid-column="1 / 13"
+					sm-grid-row="1 / 1"
+					sm-display="flex"
+					sm-flex-direction="column-reverse"
 				>
 					<Box
 						background="--color-primary"
@@ -144,11 +148,13 @@ expertise and sales.
 						padding="10px 30px 10px 30px"
 						max-width="70%"
 						z-index="1"
+						sm-max-width="100%"
+						sm-position="static"
 					>
-						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px">
+						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px" lg-font="500 18px/1.5em --fontFamily-googlePoppins">
 							Capacity
 						</Text>
-						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif">
+						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif" lg-font="300 14px Poppins, sans-serif">
 							90,000 Garments  Per Month
 						</Text>
 					</Box>
@@ -175,6 +181,10 @@ expertise and sales.
 					min-height="300px"
 					max-height="500px"
 					position="relative"
+					sm-grid-column="1 / 13"
+					sm-grid-row="2 / 2"
+					sm-display="flex"
+					sm-flex-direction="column-reverse"
 				>
 					<Box
 						background="--color-primary"
@@ -184,11 +194,13 @@ expertise and sales.
 						padding="10px 30px 10px 30px"
 						max-width="70%"
 						z-index="1"
+						sm-max-width="100%"
+						sm-position="static"
 					>
-						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px">
+						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px" lg-font="500 18px/1.5em --fontFamily-googlePoppins">
 							Sewing machinery{" "}
 						</Text>
-						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif">
+						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif" lg-font="300 14px Poppins, sans-serif">
 							300 plus lockstitch m/c set with trimmer and 100 plus special operation machines
 						</Text>
 					</Box>
@@ -215,6 +227,10 @@ expertise and sales.
 					grid-column="1 / 7"
 					grid-row="2 / 20"
 					position="relative"
+					sm-grid-column="1 / 13"
+					sm-grid-row="3 / 3"
+					sm-display="flex"
+					sm-flex-direction="column-reverse"
 				>
 					<Box
 						background="--color-primary"
@@ -224,11 +240,13 @@ expertise and sales.
 						padding="10px 30px 10px 30px"
 						max-width="70%"
 						z-index="1"
+						sm-position="static"
+						sm-max-width="100%"
 					>
-						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px">
+						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px" lg-font="500 18px/1.5em --fontFamily-googlePoppins">
 							Specialized Equipments
 						</Text>
-						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif">
+						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif" lg-font="300 14px Poppins, sans-serif">
 							CAD System and plotter, computerized embroidery m/c, testing equipment, schiffli embroidery machine, washing and dying machine
 						</Text>
 					</Box>
@@ -255,6 +273,10 @@ expertise and sales.
 					grid-column="7 / 13"
 					grid-row="12 / 20"
 					position="relative"
+					sm-grid-column="1 / 13"
+					sm-grid-row="4 / 4"
+					sm-display="flex"
+					sm-flex-direction="column-reverse"
 				>
 					<Box
 						background="--color-primary"
@@ -264,11 +286,13 @@ expertise and sales.
 						padding="10px 30px 10px 30px"
 						max-width="70%"
 						z-index="1"
+						sm-position="static"
+						sm-max-width="100%"
 					>
-						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px">
+						<Text font="500 20px/1.5em --fontFamily-googlePoppins" color="--white" letter-spacing="0.5px" lg-font="500 18px/1.5em --fontFamily-googlePoppins">
 							Floor Area
 						</Text>
-						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif">
+						<Text margin="-10px 0px 16px 0px" color="--whiteLight" font="300 16px Poppins, sans-serif" lg-font="300 14px Poppins, sans-serif">
 							Approx.100,000 square feet in 3 units
 						</Text>
 					</Box>
@@ -290,6 +314,133 @@ expertise and sales.
 				</Box>
 			</Box>
 		</Section>
+		<Section background="--color-lightPrimary" padding="80px 0 80px 0">
+			<Text quarkly-title="Heading" font="--headline2" color="--primary" margin="16px 0px 0 0px">
+				Our Team
+			</Text>
+			<Box quarkly-title="Ceo" display="grid" grid-template-columns="repeat(2, 1fr)" margin="16px 0px 0px 0px">
+				<Box
+					quarkly-title="Left box"
+					background="--color-primary"
+					display="flex"
+					justify-content="center"
+					align-items="center"
+					padding="20px 20px 20px 20px"
+					sm-grid-column="1 / 3"
+					sm-grid-row="2  / 2"
+				>
+					<Box max-width="500px">
+						<Text font="normal 600 24px/1.2 --fontFamily-googlePoppins" color="--white">
+							Mr. Gopal Singla
+						</Text>
+						<Text color="--white" margin="-10px 0px 16px 0px" font="12px Poppins, sans-serif">
+							Chairman & Managing Director
+						</Text>
+						<Text color="--whiteLight" margin="-8px 0px 16px 0px" font="300 14px Poppins, sans-serif" letter-spacing="0.5px">
+							our exports and retails department is managed by a team of dedicated professionals with the customers’ interest at heart.
+						</Text>
+					</Box>
+				</Box>
+				<Box quarkly-title="Right box" sm-grid-column="1 / 3" sm-grid-row="1 / 1">
+					<Image width="100%" height="100%" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/ceo.jpg?v=2021-01-31T15:45:29.468Z" display="block" />
+				</Box>
+			</Box>
+			<Text
+				quarkly-title="Heading"
+				font="--headline3"
+				color="--primary"
+				margin="60px 0px 0 0px"
+				sm-font="normal 500 22px/1.2 Poppins, sans-serif"
+			>
+				Board Of Directors
+			</Text>
+			<Box
+				quarkly-title="Directors"
+				display="grid"
+				grid-template-columns="1fr 1fr 1fr 1fr"
+				margin="15px 0px 0px 0px"
+				grid-gap="10px"
+				md-grid-template-columns="1fr 1fr"
+			>
+				<Box quarkly-title="Single Directors">
+					<Image
+						width="100%"
+						src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						object-fit="cover"
+						max-height="300px"
+						height="100%"
+						display="block"
+						sm-max-height="200px"
+					/>
+					<Box max-width="500px" margin="-5px 0px 0px 0px">
+						<Text font="normal 600 18px/1.2 --fontFamily-googlePoppins" color="--primary">
+							Mr. Sanjeev Singla
+						</Text>
+						<Text color="--primary" margin="-10px 0px 16px 0px" font="12px Poppins, sans-serif">
+							Director
+						</Text>
+					</Box>
+				</Box>
+				<Box quarkly-title="Single Directors">
+					<Image
+						width="100%"
+						src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						object-fit="cover"
+						max-height="300px"
+						height="100%"
+						display="block"
+						sm-max-height="200px"
+					/>
+					<Box max-width="500px" margin="-5px 0px 0px 0px">
+						<Text font="normal 600 18px/1.2 --fontFamily-googlePoppins" color="--primary">
+							Mr. Mohit Singla
+						</Text>
+						<Text color="--primary" margin="-10px 0px 16px 0px" font="12px Poppins, sans-serif">
+							Director
+						</Text>
+					</Box>
+				</Box>
+				<Box quarkly-title="Single Directors">
+					<Image
+						width="100%"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						object-fit="cover"
+						max-height="300px"
+						height="100%"
+						display="block"
+						sm-max-height="200px"
+					/>
+					<Box max-width="500px" margin="-5px 0px 0px 0px">
+						<Text font="normal 600 18px/1.2 --fontFamily-googlePoppins" color="--primary">
+							Mrs. Kriti Singla
+						</Text>
+						<Text color="--primary" margin="-10px 0px 16px 0px" font="12px Poppins, sans-serif">
+							Director
+						</Text>
+					</Box>
+				</Box>
+				<Box quarkly-title="Single Directors">
+					<Image
+						width="100%"
+						src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						object-fit="cover"
+						max-height="300px"
+						height="100%"
+						display="block"
+						sm-max-height="200px"
+					/>
+					<Box max-width="500px" margin="-5px 0px 0px 0px">
+						<Text font="normal 600 18px/1.2 --fontFamily-googlePoppins" color="--primary">
+							Mr. Mukul Singla
+						</Text>
+						<Text color="--primary" margin="-10px 0px 16px 0px" font="12px Poppins, sans-serif">
+							Director
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
