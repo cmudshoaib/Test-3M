@@ -18,15 +18,16 @@ export default (() => {
 		<Components.Header>
 			<Override slot="Navigation :open" lg-left={0} />
 		</Components.Header>
-		<Components.TopSection />
+		<Components.TopSection padding="120px 0px 0px 0px" />
 		<Section background="--color-primary" padding="0 0 160px 0" md-padding="0 0 120px 0">
 			<Box quarkly-title="Banner" position="relative">
 				<Image
-					src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/Production%20floor%204.jpg?v=2021-01-31T13:56:25.429Z"
+					src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/about.jpg?v=2021-02-07T15:37:23.739Z"
 					width="100%"
 					max-height="400px"
 					object-fit="cover"
 					display="block"
+					object-position="bottom"
 				/>
 				<Box
 					quarkly-title="Quote"
@@ -66,7 +67,14 @@ expertise and sales.
 				</Text>
 				<Stack padding="30px 0px 0px 0px">
 					{"    "}{"    "}
-					<Components.AboutDescCard md-width="50%" sm-width="100%" />
+					<Components.AboutDescCard md-width="50%" sm-width="100%">
+						<Override slot="text1">
+							2013
+						</Override>
+						<Override slot="text2">
+							3M Exim Private Limited (Promoted by Singla Apparels Pvt. Ltd.) is a government recognized, ready-made garment company, founded in the year 2013, which deals in knitted and woven apparels for men, women and kids.
+						</Override>
+					</Components.AboutDescCard>
 					<Components.AboutDescCard md-width="50%" sm-width="100%">
 						<Override slot="text">
 							We Manufacture

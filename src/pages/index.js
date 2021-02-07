@@ -17,6 +17,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header>
 			<Override slot="Navigation :open" lg-left={0} />
+			<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-white.svg?v=2021-02-07T14:39:39.988Z" />
 		</Components.Header>
 		<Section
 			padding="160px 0 80px 0"
@@ -30,15 +31,53 @@ export default (() => {
 				text-align="center"
 				color="--whiteLight"
 				md-font="normal 600 30px/1.2 --fontFamily-googlePoppins"
-				sm-font="normal 600 20px/1.2 --fontFamily-googlePoppins"
+				sm-font="normal 600 24px/1.2 --fontFamily-googlePoppins"
+				margin="16px 0px 0 0px"
 			>
-				Best Quality Grade Garment{" "}
-				<br />
-				Manufacturer - Ready To Export
+				Government Approved Garment Exporter
+			</Text>
+			<Text
+				font="normal 600 22px/1.2 --fontFamily-googlePoppins"
+				text-align="center"
+				color="--whiteLight"
+				md-font="normal 600 18px/1.2 --fontFamily-googlePoppins"
+				sm-font="normal 600 16px/1.2 --fontFamily-googlePoppins"
+			>
+				We understand fashion industry
+			</Text>
+			<Image
+				height="36px"
+				align-self="center"
+				src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/sedex.svg?v=2021-02-07T13:51:06.066Z"
+				background="--color-white"
+				padding="10px 20px 10px 20px"
+				margin="0px 0px 0 0px"
+			/>
+			<Text
+				font="normal 600 10px/1.4 --fontFamily-googlePoppins"
+				text-align="center"
+				color="--whiteLight"
+				md-font="normal 600 10px/1.4 --fontFamily-googlePoppins"
+				sm-font="normal 600 12px/1.2 --fontFamily-googlePoppins"
+				margin="0 0px 30px 0px"
+				letter-spacing="1.2vw"
+				text-transform="uppercase"
+				padding="0px 0 0px 10px"
+				md-letter-spacing="1.9vw"
+				sm-letter-spacing="3vw"
+			>
+				Approved
 			</Text>
 			<Box quarkly-title="Slider">
 				<Box>
-					<Image width="100%" height="auto" display="block" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/banner-2.jpg?v=2021-01-29T17:20:30.999Z" />
+					<Image
+						width="100%"
+						height="auto"
+						display="block"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/banner-new.jpg?v=2021-02-07T14:50:18.707Z"
+						max-height="600px"
+						object-fit="cover"
+					/>
 				</Box>
 				<Stack padding="40px 0px 0px 0px" md-padding="30px 0px 0px 0px">
 					{"    "}
@@ -71,8 +110,22 @@ export default (() => {
 							letter-spacing="0.5px"
 							md-font="normal 300 12px/1.5 --fontFamily-googlePoppins"
 						>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							Garment production is an organized activity consisting of sequential processes such as laying, marking, cutting, stitching, checking, finishing, pressing...
 						</Text>
+						<Link
+							href="/about-us"
+							text-decoration-line="initial"
+							background="rgba(255, 255, 255, 0)"
+							color="--white"
+							max-width="200px"
+							text-align="center"
+							align-self="flex-start"
+							margin="10px 0px 0px 0px"
+							border-style="solid"
+							border-width="0 0 2px 0"
+						>
+							READ MORE
+						</Link>
 						{"    "}
 					</StackItem>
 					<StackItem width="33.333%" display="flex" lg-width="50%">
@@ -93,7 +146,7 @@ export default (() => {
 							padding="0px 0px 5px 0px"
 							md-font="normal 500 18px/1.5 --fontFamily-googlePoppins"
 						>
-							Digital Printing
+							Dyeing & Printing
 						</Text>
 						<Text
 							font="normal 300 14px/1.5 --fontFamily-googlePoppins"
@@ -103,8 +156,22 @@ export default (() => {
 							letter-spacing="0.5px"
 							md-font="normal 300 12px/1.5 --fontFamily-googlePoppins"
 						>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							We engage in manufacturing of the Fabrics and Garments with state-of-the-art infrastructure. The Noida layout is a strong and sturdy framework of various units...
 						</Text>
+						<Link
+							href="/about-us"
+							text-decoration-line="initial"
+							background="rgba(255, 255, 255, 0)"
+							color="--white"
+							max-width="200px"
+							text-align="center"
+							align-self="flex-start"
+							margin="10px 0px 0px 0px"
+							border-width="0 0 2px 0"
+							border-style="solid"
+						>
+							READ MORE
+						</Link>
 						{"    "}
 					</StackItem>
 					<StackItem width="33.333%" display="flex" lg-width="50%" sm-width="100%">
@@ -135,8 +202,114 @@ export default (() => {
 							letter-spacing="0.5px"
 							md-font="normal 300 12px/1.5 --fontFamily-googlePoppins"
 						>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							A multiple head embroidery machine has multiple embroidery heads, around 6 to 8 which simultaneously work. They can however function independently, meaning they...
 						</Text>
+						<Link
+							href="/about-us"
+							text-decoration-line="initial"
+							background="rgba(255, 255, 255, 0)"
+							color="--white"
+							max-width="200px"
+							text-align="center"
+							align-self="flex-start"
+							margin="10px 0px 0px 0px"
+							border-width="0 0 2px 0"
+							border-style="solid"
+						>
+							READ MORE
+						</Link>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.333%" display="flex" lg-width="50%" sm-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						{"        "}
+						<Box
+							height="3px"
+							width="100%"
+							min-height="1px"
+							margin="0px 0px 12px 0px"
+							md-margin="0px 0px 5px 0px"
+						/>
+						<Text
+							font="normal 500 20px/1.5 --fontFamily-googlePoppins"
+							margin="0px 0px 0 0px"
+							display="inline-block"
+							color="--white"
+							padding="0px 0px 5px 0px"
+							md-font="normal 500 18px/1.5 --fontFamily-googlePoppins"
+						>
+							Screen Printing
+						</Text>
+						<Text
+							font="normal 300 14px/1.5 --fontFamily-googlePoppins"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="--whitelight1"
+							letter-spacing="0.5px"
+							md-font="normal 300 12px/1.5 --fontFamily-googlePoppins"
+						>
+							Its oval design takes up less floor space than comparable carousel automatic screen printing presses, making more efficient use of the available production area. Available in three...
+						</Text>
+						<Link
+							href="/about-us"
+							text-decoration-line="initial"
+							background="rgba(255, 255, 255, 0)"
+							color="--white"
+							max-width="200px"
+							text-align="center"
+							align-self="flex-start"
+							margin="10px 0px 0px 0px"
+							border-width="0 0 2px 0"
+							border-style="solid"
+						>
+							READ MORE
+						</Link>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.333%" display="flex" lg-width="50%" sm-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						{"        "}
+						<Box
+							height="3px"
+							width="100%"
+							min-height="1px"
+							margin="0px 0px 12px 0px"
+							md-margin="0px 0px 5px 0px"
+						/>
+						<Text
+							font="normal 500 20px/1.5 --fontFamily-googlePoppins"
+							margin="0px 0px 0 0px"
+							display="inline-block"
+							color="--white"
+							padding="0px 0px 5px 0px"
+							md-font="normal 500 18px/1.5 --fontFamily-googlePoppins"
+						>
+							Multi Head Computerized Emb.
+						</Text>
+						<Text
+							font="normal 300 14px/1.5 --fontFamily-googlePoppins"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="--whitelight1"
+							letter-spacing="0.5px"
+							md-font="normal 300 12px/1.5 --fontFamily-googlePoppins"
+						>
+							The new K Automat features 10.4" Color Touch Screen, higher resolution and a 100 design, 70 million stitch memory. User-friendly icons and an intuitive main...
+						</Text>
+						<Link
+							href="/about-us"
+							text-decoration-line="initial"
+							background="rgba(255, 255, 255, 0)"
+							color="--white"
+							max-width="200px"
+							text-align="center"
+							align-self="flex-start"
+							margin="10px 0px 0px 0px"
+							border-width="0 0 2px 0"
+							border-style="solid"
+						>
+							READ MORE
+						</Link>
 						{"    "}
 					</StackItem>
 					{"    "}
@@ -192,7 +365,7 @@ service standards
 								color="--white"
 								letter-spacing="1px"
 							>
-								2003
+								2013
 							</Text>
 							{"    "}
 						</StackItem>
@@ -238,7 +411,7 @@ service standards
 								color="--white"
 								letter-spacing="1px"
 							>
-								8000:2008
+								SEDEX
 							</Text>
 							{"    "}
 						</StackItem>
@@ -326,7 +499,7 @@ expertise and sales.
 					<Box background="--color-primary" min-height="1px" height="4px" />
 				</Box>
 			</Box>
-			<Text color="--primary" font="--para3">
+			<Text color="--primary" font="--para3" display="none">
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 			</Text>
 			<Stack font="500 16px Poppins, sans-serif" padding="20px 0px 0px 0px">
@@ -340,8 +513,8 @@ expertise and sales.
 						border-radius="6px"
 					/>
 					{"        "}
-					<Box text-align="center" padding="5px 10px 5px 10px">
-						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/3%20(1).jpg?v=2021-01-30T07:18:06.425Z" />
+					<Box text-align="center" padding="15px 10px 5px 10px">
+						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/lascoot.png?v=2021-02-07T15:32:06.808Z" />
 					</Box>
 					<Box>
 						<Image
@@ -351,12 +524,13 @@ expertise and sales.
 							display="block"
 							max-height="300px"
 							object-position="top"
+							object-fit="cover"
 						/>
 					</Box>
 					<Box padding="20px 15px 20px 15px" display="flex" justify-content="space-between">
 						<Box>
 							<Text font="normal 500 12px/1.5 --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
-								Clothings - Men, Women
+								Clothings - Men
 							</Text>
 							<Text font="700 20px/1.5em --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
 								LASCOOT
@@ -379,14 +553,14 @@ expertise and sales.
 						border-radius="6px"
 					/>
 					{"        "}
-					<Box text-align="center" padding="5px 10px 5px 10px">
-						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/3%20(1).jpg?v=2021-01-30T07:18:06.425Z" />
+					<Box text-align="center" padding="15px 10px 5px 10px">
+						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/zadley.png?v=2021-02-07T15:28:31.278Z" />
 					</Box>
 					<Box>
 						<Image
 							width="100%"
 							height="auto"
-							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1%20(1).jpg?v=2021-01-30T07:13:39.853Z"
+							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/p1.png?v=2021-02-07T15:25:33.666Z"
 							display="block"
 							object-fit="cover"
 							object-position="top"
@@ -396,10 +570,10 @@ expertise and sales.
 					<Box padding="20px 15px 20px 15px" display="flex" justify-content="space-between">
 						<Box>
 							<Text font="normal 500 12px/1.5 --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
-								Clothings - Men, Women
+								Clothings - Women
 							</Text>
 							<Text font="700 20px/1.5em --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
-								LASCOOT
+								Zadley
 							</Text>
 						</Box>
 						<Box>
@@ -419,7 +593,7 @@ expertise and sales.
 						border-radius="6px"
 					/>
 					{"        "}
-					<Box text-align="center" padding="5px 10px 5px 10px">
+					<Box text-align="center" padding="15px 10px 5px 10px">
 						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/3%20(1).jpg?v=2021-01-30T07:18:06.425Z" />
 					</Box>
 					<Box>
@@ -452,6 +626,20 @@ expertise and sales.
 				</StackItem>
 				{"    "}
 			</Stack>
+			<Link
+				href="/clients"
+				text-decoration-line="initial"
+				color="--white"
+				display="block"
+				max-width="200px"
+				text-align="center"
+				padding="8px 15px 8px 15px"
+				background="--color-primary"
+				margin="40px 0px 0px 0px"
+				align-self="center"
+			>
+				SHOW MORE BRANDS
+			</Link>
 		</Section>
 		<Section background="--color-lightPrimary" padding="60px 0 160px 0">
 			<Box text-align="center">

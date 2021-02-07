@@ -24,7 +24,10 @@ export default (() => {
 				Our Clients
 			</Text>
 			<Text quarkly-title="Description" max-width="900px" color="--whiteLight" margin="0 0px 16px 0px">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				3M Exim has its global presence. The company also caters to the large reputed Indian Retail labels like Reliance Trends, Pantaloons, Wills Lifestyle, Vishal Megamart (TPG Group) and Future Retail Ltd(Big Bazar).{"\n\n"}
+			</Text>
+			<Text quarkly-title="Heading" font="normal 500 24px/1.2 --fontFamily-googlePoppins" color="--white" margin="16px 0px 5px 0px">
+				Domestic
 			</Text>
 			<Box
 				display="flex"
@@ -32,15 +35,39 @@ export default (() => {
 				grid-template-columns="repeat(6, 170px)"
 				grid-auto-columns="170px"
 				flex-wrap="wrap"
-				justify-content="center"
-				margin="20px 0px 0px 0px"
+				justify-content="flex-start"
+				margin="5px 0px 0px 0px"
+			>
+				<Components.LogoBox>
+					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1-08.png?v=2021-01-30T12:20:40.481Z" />
+				</Components.LogoBox>
+				<Components.LogoBox>
+					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/925921388s.jpg?v=2021-02-07T16:21:47.060Z" />
+				</Components.LogoBox>
+				<Components.LogoBox>
+					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/thumb_logo-Pantaloons-1432207932.png?v=2021-02-07T16:22:59.112Z" />
+				</Components.LogoBox>
+				<Components.LogoBox>
+					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1%20(1).jpg?v=2021-02-07T16:23:58.586Z" />
+				</Components.LogoBox>
+				<Components.LogoBox>
+					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/news7943.jpg?v=2021-02-07T16:25:06.862Z" />
+				</Components.LogoBox>
+			</Box>
+			<Text quarkly-title="Heading" font="normal 500 24px/1.2 --fontFamily-googlePoppins" color="--white" margin="40px 0px 5px 0px">
+				Overseas
+			</Text>
+			<Box
+				display="flex"
+				grid-gap="15px"
+				grid-template-columns="repeat(6, 170px)"
+				grid-auto-columns="170px"
+				flex-wrap="wrap"
+				margin="5px 0px 0px 0px"
 			>
 				<Components.LogoBox />
 				<Components.LogoBox>
 					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1-06.png?v=2021-01-30T12:21:09.370Z" />
-				</Components.LogoBox>
-				<Components.LogoBox>
-					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1-08.png?v=2021-01-30T12:20:40.481Z" />
 				</Components.LogoBox>
 				<Components.LogoBox>
 					<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/vanhe.jpg?v=2021-01-30T11:22:38.918Z" />

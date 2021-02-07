@@ -31,7 +31,7 @@ export default {
 		"lightD1": "#EDF2F6",
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
-		"primary": "#223B40",
+		"primary": "#3368B0",
 		"secondary": "#FFC400",
 		"orange": "#FF7C22",
 		"red": "#DE350B",
@@ -40,7 +40,7 @@ export default {
 		"whiteLight": "rgba(255, 255, 255, 0.7)",
 		"white": "#ffffff",
 		"whitelight1": "rgba(255, 255, 255, 0.5)",
-		"lightPrimary": "#E6F5F8"
+		"lightPrimary": "#E9F3FF"
 	},
 	"fontFamily": {
 		"sans": "-apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -188,5 +188,5 @@ export default {
 			}
 		}
 	},
-	"version": 45
+	"version": 47
 }
