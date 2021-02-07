@@ -66,7 +66,7 @@ export default {
 			"margin": ""
 		},
 		"seo": {
-			"title": ""
+			"title": "3M Exim Pvt. Ltd. | Government Approved Garment Exporter"
 		}
 	}
 }
