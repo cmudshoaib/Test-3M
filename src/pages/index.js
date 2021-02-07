@@ -520,7 +520,7 @@ expertise and sales.
 						<Image
 							width="100%"
 							height="auto"
-							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1%20(1).jpg?v=2021-01-30T07:13:39.853Z"
+							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/lascoot.jpg?v=2021-02-07T16:36:46.419Z"
 							display="block"
 							max-height="300px"
 							object-position="top"
@@ -600,7 +600,7 @@ expertise and sales.
 						<Image
 							width="100%"
 							height="auto"
-							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/1%20(1).jpg?v=2021-01-30T07:13:39.853Z"
+							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/lascoot.jpg?v=2021-02-07T16:36:46.419Z"
 							display="block"
 							max-height="300px"
 							object-fit="cover"
