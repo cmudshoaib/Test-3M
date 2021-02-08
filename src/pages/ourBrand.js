@@ -142,7 +142,7 @@ export default (() => {
 						background="--color-lightPrimary"
 					>
 						<Text margin="0 0px 0 0px" font="normal 500 24px/1.2 --fontFamily-googlePoppins" sm-font="normal 500 20px/1.2 --fontFamily-googlePoppins">
-							Bitnic
+							Beatnik
 						</Text>
 						<Text margin="5px 0px 0 0px" font="300 14px Poppins, sans-serif" sm-font="300 12px Poppins, sans-serif">
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

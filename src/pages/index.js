@@ -17,6 +17,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header>
 			<Override slot="Navigation :open" lg-left={0} />
+			<Override slot="image" />
 		</Components.Header>
 		<Section
 			padding="160px 0 80px 0"
@@ -47,26 +48,11 @@ export default (() => {
 			<Image
 				height="36px"
 				align-self="center"
-				src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/sedex.svg?v=2021-02-07T13:51:06.066Z"
+				src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/sedex-approved.png?v=2021-02-08T09:22:44.819Z"
 				background="--color-white"
-				padding="10px 20px 10px 20px"
-				margin="0px 0px 0 0px"
+				padding="5px 5px 5px 5px"
+				margin="0px 0px 30px 0px"
 			/>
-			<Text
-				font="normal 600 10px/1.4 --fontFamily-googlePoppins"
-				text-align="center"
-				color="--whiteLight"
-				md-font="normal 600 10px/1.4 --fontFamily-googlePoppins"
-				sm-font="normal 600 12px/1.2 --fontFamily-googlePoppins"
-				margin="0 0px 30px 0px"
-				letter-spacing="1.2vw"
-				text-transform="uppercase"
-				padding="0px 0 0px 10px"
-				md-letter-spacing="1.9vw"
-				sm-letter-spacing="3vw"
-			>
-				Approved
-			</Text>
 			<Box quarkly-title="Slider">
 				<Box>
 					<Image
@@ -593,13 +579,13 @@ expertise and sales.
 					/>
 					{"        "}
 					<Box text-align="center" padding="15px 10px 5px 10px">
-						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/3%20(1).jpg?v=2021-01-30T07:18:06.425Z" />
+						<Image width="auto" height="50px" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/bitnik.png?v=2021-02-08T09:14:32.584Z" />
 					</Box>
 					<Box>
 						<Image
 							width="100%"
 							height="auto"
-							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/lascoot.jpg?v=2021-02-07T16:36:46.419Z"
+							src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/beatnik.png?v=2021-02-08T09:18:45.301Z"
 							display="block"
 							max-height="300px"
 							object-fit="cover"
@@ -609,10 +595,10 @@ expertise and sales.
 					<Box padding="20px 15px 20px 15px" display="flex" justify-content="space-between">
 						<Box>
 							<Text font="normal 500 12px/1.5 --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
-								Clothings - Men, Women
+								Medical Equipment
 							</Text>
 							<Text font="700 20px/1.5em --fontFamily-googlePoppins" margin="0px 0px 0px 0px" display="block" color="--primary">
-								LASCOOT
+								Beatnik
 							</Text>
 						</Box>
 						<Box>

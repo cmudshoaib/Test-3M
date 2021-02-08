@@ -16,7 +16,7 @@ const overrides = {
 		"kind": "Image",
 		"props": {
 			"width": "auto",
-			"height": "64px",
+			"height": "76px",
 			"quarkly-title": "Logo Desktop",
 			"src": "https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-white-nu.svg?v=2021-01-29T16:42:05.760Z",
 			"lg-display": "none",
