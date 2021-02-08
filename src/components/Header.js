@@ -18,7 +18,7 @@ const overrides = {
 			"width": "auto",
 			"height": "64px",
 			"quarkly-title": "Logo Desktop",
-			"src": "https://uploads.quarkly.io/601439a871e66d001efaf959/images/Group%20410.svg?v=2021-01-29T16:42:05.760Z",
+			"src": "https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-white-nu.svg?v=2021-01-29T16:42:05.760Z",
 			"lg-display": "none",
 			"display": "block"
 		}
@@ -29,7 +29,7 @@ const overrides = {
 			"width": "auto",
 			"height": "64px",
 			"quarkly-title": "Logo Mobile",
-			"src": "https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-color.svg?v=2021-01-31T08:12:23.919Z",
+			"src": "https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-color-nu.svg?v=2021-01-31T08:12:23.919Z",
 			"lg-display": "block",
 			"display": "none",
 			"lg-height": "48px"

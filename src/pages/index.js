@@ -17,7 +17,6 @@ export default (() => {
 		</Helmet>
 		<Components.Header>
 			<Override slot="Navigation :open" lg-left={0} />
-			<Override slot="image" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/logo-white.svg?v=2021-02-07T14:39:39.988Z" />
 		</Components.Header>
 		<Section
 			padding="160px 0 80px 0"
