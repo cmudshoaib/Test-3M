@@ -51,22 +51,27 @@ export default (() => {
 						padding="20px 20px 20px 20px"
 						color="--primary"
 						background="--color-lightPrimary"
+						min-height="150px"
+						display="flex"
+						justify-content="center"
+						flex-direction="column"
 					>
 						<Text margin="0 0px 0 0px" font="normal 500 24px/1.2 --fontFamily-googlePoppins" sm-font="normal 500 20px/1.2 --fontFamily-googlePoppins">
 							Lascoot
 						</Text>
 						<Text margin="5px 0px 0 0px" font="300 14px Poppins, sans-serif" sm-font="300 12px Poppins, sans-serif">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							Synonymous with authentic style and fashion, La'Scoot is a reputed name in men's fashion.{"\n\n"}
 						</Text>
 						<Box>
 							<Link
-								href="#"
+								href="https://www.lascoot.com/"
 								color="--primary"
 								text-decoration-line="initial"
 								font="700 14px Poppins, sans-serif"
 								margin="10px 0px 0px 0px"
 								display="block"
 								letter-spacing="0.5px"
+								target="_blank"
 							>
 								VISIT THE WEBSITE
 							</Link>
@@ -95,12 +100,16 @@ export default (() => {
 						padding="20px 20px 20px 20px"
 						color="--lightPrimary"
 						background="--color-primary"
+						display="flex"
+						min-height="150px"
+						justify-content="center"
+						flex-direction="column"
 					>
 						<Text margin="0 0px 0 0px" font="normal 500 24px/1.2 --fontFamily-googlePoppins" color="--white" sm-font="normal 500 20px/1.2 --fontFamily-googlePoppins">
 							Zadley
 						</Text>
 						<Text margin="5px 0px 0 0px" font="300 14px Poppins, sans-serif" color="--whiteLight" sm-font="300 12px Poppins, sans-serif">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							Synonymous with authentic style and fashion, La'Scoot is a reputed name in women's fashion.{"\n\n"}
 						</Text>
 						<Box>
 							<Link
@@ -140,12 +149,16 @@ export default (() => {
 						padding="20px 20px 20px 20px"
 						color="--primary"
 						background="--color-lightPrimary"
+						display="flex"
+						min-height="150px"
+						justify-content="center"
+						flex-direction="column"
 					>
 						<Text margin="0 0px 0 0px" font="normal 500 24px/1.2 --fontFamily-googlePoppins" sm-font="normal 500 20px/1.2 --fontFamily-googlePoppins">
 							Beatnik
 						</Text>
 						<Text margin="5px 0px 0 0px" font="300 14px Poppins, sans-serif" sm-font="300 12px Poppins, sans-serif">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							Synonymous with authentic style and fashion, La'Scoot is a reputed name in men's fashion.{"\n\n"}
 						</Text>
 						<Box>
 							<Link
@@ -185,12 +198,16 @@ export default (() => {
 						padding="20px 20px 20px 20px"
 						color="--lightPrimary"
 						background="--color-primary"
+						min-height="150px"
+						display="flex"
+						flex-direction="column"
+						justify-content="center"
 					>
 						<Text margin="0 0px 0 0px" font="normal 500 24px/1.2 --fontFamily-googlePoppins" color="--white" sm-font="normal 500 20px/1.2 --fontFamily-googlePoppins">
 							EduAchiver
 						</Text>
 						<Text margin="5px 0px 0 0px" font="300 14px Poppins, sans-serif" color="--whiteLight" sm-font="300 12px Poppins, sans-serif">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							EduAchiever is an online learning platform for Class IX- XII.{"\n\n"}
 						</Text>
 						<Box>
 							<Link
