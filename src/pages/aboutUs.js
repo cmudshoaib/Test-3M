@@ -349,8 +349,15 @@ expertise and sales.
 						</Text>
 					</Box>
 				</Box>
-				<Box quarkly-title="Right box" sm-grid-column="1 / 3" sm-grid-row="1 / 1">
-					<Image width="100%" height="100%" src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/ceo.jpg?v=2021-01-31T15:45:29.468Z" display="block" />
+				<Box quarkly-title="Right box" sm-grid-column="1 / 3" sm-grid-row="1 / 1" max-height="400px">
+					<Image
+						width="100%"
+						height="100%"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/gopal.jpeg?v=2021-02-11T06:07:19.205Z"
+						display="block"
+						object-fit="cover"
+						object-position="0 -4px"
+					/>
 				</Box>
 			</Box>
 			<Text
@@ -373,7 +380,7 @@ expertise and sales.
 				<Box quarkly-title="Single Directors">
 					<Image
 						width="100%"
-						src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/sajeev.jpg?v=2021-02-11T06:11:58.917Z"
 						object-fit="cover"
 						max-height="300px"
 						height="100%"
@@ -392,7 +399,7 @@ expertise and sales.
 				<Box quarkly-title="Single Directors">
 					<Image
 						width="100%"
-						src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/mohit.jpg?v=2021-02-11T06:12:17.075Z"
 						object-fit="cover"
 						max-height="300px"
 						height="100%"
@@ -430,7 +437,7 @@ expertise and sales.
 				<Box quarkly-title="Single Directors">
 					<Image
 						width="100%"
-						src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/mukul.jpg?v=2021-02-11T06:12:17.148Z"
 						object-fit="cover"
 						max-height="300px"
 						height="100%"
