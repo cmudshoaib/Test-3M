@@ -98,7 +98,7 @@ export default (() => {
 							Garment production is an organized activity consisting of sequential processes such as laying, marking, cutting, stitching, checking, finishing, pressing...
 						</Text>
 						<Link
-							href="/about-us"
+							href="/capabilities"
 							text-decoration-line="initial"
 							background="rgba(255, 255, 255, 0)"
 							color="--white"
@@ -144,7 +144,7 @@ export default (() => {
 							We engage in manufacturing of the Fabrics and Garments with state-of-the-art infrastructure. The Noida layout is a strong and sturdy framework of various units...
 						</Text>
 						<Link
-							href="/about-us"
+							href="/capabilities"
 							text-decoration-line="initial"
 							background="rgba(255, 255, 255, 0)"
 							color="--white"
@@ -190,7 +190,7 @@ export default (() => {
 							A multiple head embroidery machine has multiple embroidery heads, around 6 to 8 which simultaneously work. They can however function independently, meaning they...
 						</Text>
 						<Link
-							href="/about-us"
+							href="/capabilities"
 							text-decoration-line="initial"
 							background="rgba(255, 255, 255, 0)"
 							color="--white"
@@ -236,7 +236,7 @@ export default (() => {
 							Its oval design takes up less floor space than comparable carousel automatic screen printing presses, making more efficient use of the available production area. Available in three...
 						</Text>
 						<Link
-							href="/about-us"
+							href="/capabilities"
 							text-decoration-line="initial"
 							background="rgba(255, 255, 255, 0)"
 							color="--white"
@@ -282,7 +282,7 @@ export default (() => {
 							The new K Automat features 10.4" Color Touch Screen, higher resolution and a 100 design, 70 million stitch memory. User-friendly icons and an intuitive main...
 						</Text>
 						<Link
-							href="/about-us"
+							href="/capabilities"
 							text-decoration-line="initial"
 							background="rgba(255, 255, 255, 0)"
 							color="--white"
@@ -612,7 +612,7 @@ expertise and sales.
 				{"    "}
 			</Stack>
 			<Link
-				href="/clients"
+				href="/our-brand"
 				text-decoration-line="initial"
 				color="--white"
 				display="block"

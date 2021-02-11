@@ -418,7 +418,7 @@ expertise and sales.
 				<Box quarkly-title="Single Directors">
 					<Image
 						width="100%"
-						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://uploads.quarkly.io/601439a871e66d001efaf959/images/mohit.jpg?v=2021-02-11T06:12:17.075Z"
 						object-fit="cover"
 						max-height="300px"
 						height="100%"
